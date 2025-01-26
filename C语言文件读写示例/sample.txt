@@ -1,0 +1,30 @@
+Files can be used to store programs, documents, data,
+letters, tables, graphics, images, videos, etc., so it
+is necessary to be able to create and read/write filesusing programs; 
+The process of reading and writing files through a
+program is called file redirection.
+
+A file is an area in memory where information is stored,
+and all file contents are stored in binary form. Typically,
+files are saved in a named permanent storage device, such
+as a hard drive, USB flash drive, DVD, etc. C regards files
+as a series of consecutive bytes, each byte can be read
+separately; C provides two modes for accessing files: text
+mode and binary mode.
+
+Text file refers to a file that uses binary encoded characters
+to represent text and contains textual content.
+Binary files refer to files where binary values represent machine
+language, numerical data, images, music encoding, etc., and
+contain binary content.
+
+When reading and writing files, the C program will automatically
+open three files, which are called standard input, standard
+output, and standard error output. By default, standard input is
+the normal input device of the system, usually a keyboard, while
+standard input provides input for the program and is a file used
+by getchar() and scanf(). Standard output and standard error
+output are common output devices of the system, usually display
+screens; The program usually outputs to standard output, which is
+the file used by putchar(), puts(), printf(); The standard error
+output provides a logically different place to broadcast error messages.
